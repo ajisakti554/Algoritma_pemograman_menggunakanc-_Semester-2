@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 using namespace std;
 int main(){
@@ -8,13 +10,13 @@ string nama;
 char golongan;
 int jam_kerja, upah_per_jam, total_upah;
 //proses input
-cout << "Nama Karyawan :";
+cout << "Masukan Nama Karyawan :";
 cin >> nama;
 
-cout << "golongan :";
+cout << "Input golongan (A,B,C,D) :";
 cin >> golongan;
 
-cout << "jumlah jam kerja: ";
+cout << "Input jumlah jam kerja :";
 cin >> jam_kerja;
 
 // menentukan upah perjam berdasarkan golongan
@@ -39,8 +41,11 @@ switch (golongan){
     }
     // proses output
     cout<<endl;
-    cout<<nama<<" menerima upah Rp. "<< total_upah << "per minggu";
+    cout<<"Nama Karyawan "<< nama << endl;
+    cout<< "Gaji mingguan Rp."<<total_upah;
     cout<<endl;
     return 0;
 
 }
+
+ 
